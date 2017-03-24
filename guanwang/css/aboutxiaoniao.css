@@ -1,0 +1,394 @@
+/*头部*/
+.head{
+    width: 100%;
+    height: 50px;
+    background: url("../images/aboutxiaoniao/beader_bg.jpg")no-repeat center;
+}
+.head1{}
+.nav{
+    width: 1100px;
+    margin: 0 auto
+}
+.head_img{
+    float: left
+}
+.head_ul{
+    float: left;
+    margin-left: 55px;
+    height: 50px;
+    line-height: 50px;
+}
+.head_ul li{
+    float: left;
+    margin-right: 30px;
+    background: url("../images/nav_now_bg.png")no-repeat -20px 0;
+}
+.head_ul a{
+    font-size: 14px;
+    color: #97abb6
+}
+.head_ul li:hover{
+    background: url("../images/nav_now_bg.png")no-repeat 50% 80%;
+    transition: all 1s
+}
+.head_ul .head_active{
+    background: url("../images/nav_now_bg.png")no-repeat 50% 80%;
+}
+.head_active a{
+    color: white
+}
+.head_ul .now{
+     background: url("../images/nav_now_bg.png")no-repeat 50% 80%;
+ }
+.head_ul .now a{
+    color: white
+}
+body{
+    position: relative;
+}
+.main_warp{
+    overflow: hidden;
+}
+.main_slide{
+
+}
+/*动画页*/
+.gif_box{
+    position:absolute;
+    background: #289bd7;
+    padding-top: 50px;
+    /*width: 100%;*/
+    top:0;
+    left: 0;
+    z-index: 999;
+
+}
+.gif{
+
+}
+.gif_1{
+    /*float: left;*/
+    margin-left:-250px;
+    bottom: 300px;
+    position: absolute;
+    /*top:50%;*/
+    left: 50%;
+
+}
+.wenzi{
+    /*margin: 380px 440px;*/
+    position: absolute;
+    width: 540px;
+    height: 230px;
+    top: 430px;
+    left: 480px;
+}
+.wenzi_1{
+    /*margin: 380px 440px;*/
+    position: absolute;
+    width: 540px;
+    height: 256px;
+    top: 380px;
+    left: 440px;
+}
+em{
+    display: inline-block;
+    background: url("../images/aboutxiaoniao/donext.png")no-repeat;
+}
+.down{
+    width: 58px;
+    height: 59px;
+    background-position: 0 -58px;
+    position: absolute;
+    left: 50%;
+    margin-left: -28px;
+    margin-top: 640px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.down:hover{
+    transition: all 0.3s;
+    background-position: 0 0;
+}
+.xue{
+    float: left;
+    margin-top: -30px;
+}
+
+/*概述*/
+.warp_block3{
+    background: white;
+    position: relative
+}
+.qiyuan{
+    width: 694px;
+    height: 68px;
+    position: relative;
+    margin: 0 auto;
+    padding-top: 20px;
+    margin-bottom: 27px;
+}
+.qiyuan .img1{
+    position: absolute;
+    top: 0;
+    left: 0
+}
+.qiyuan .img2{
+    position: absolute;
+    bottom: 0;
+    right: 0
+}
+.qiyuan>p{
+    text-align: center;
+    margin-left: 33px;
+    color: #727177;
+    letter-spacing: 2px;
+    font-size: 16px;
+}
+.main_banner{
+    position: relative;
+    width: 866px;
+    margin: 0 auto;
+    overflow: hidden
+}
+.banner_warp{
+    width: 2598px;
+    position: absolute;
+}
+.model_1{
+    width: 866px;
+    float: left;
+}
+.model_1>p{
+    font-size: 48px;
+    color: #3b2669;
+    text-align: center
+}
+.model_1 ul{
+    margin: 0 auto
+}
+.model_1 ul li{
+    float: left;
+    margin-right: 34px;
+}
+.gaishu_jl{
+    background: url("../images/aboutxiaoniao/goleft.png")no-repeat;
+    display: block
+}
+.gaishu_zuo{
+    width: 58px;
+    height: 58px;
+    background-position: 0 0;
+    position: absolute;
+    left: 58px;
+    top: 50%;
+    margin-top: -29px;
+}
+.gaishu_jl1{
+    background: url("../images/aboutxiaoniao/goright.png")no-repeat;
+    display: block
+}
+.gaishu_you{
+    width: 58px;
+    height: 58px;
+    background-position: -58px 0;
+    position: absolute;
+    right: 58px;
+    top: 50%;
+    margin-top: -29px;
+}
+.gaishu_zuo:hover{
+    width: 58px;
+    height: 58px;
+    background-position: -58px 0;
+    position: absolute;
+    left: 58px;
+    top: 50%;
+    margin-top: -29px;
+}
+.gaishu_you:hover{
+    width: 58px;
+    height: 58px;
+    background-position: 0 0;
+    position: absolute;
+    right: 58px;
+    top: 50%;
+    margin-top: -29px;
+}
+.gaishu_img{
+    width: 502px;
+    height: 38px;
+    margin: 0 auto;
+    display: block;
+    padding-top: 25px;
+    margin-bottom: 50px;
+}
+.gaishu_yuan{}
+.gaishu_yuan1{
+    width: 866px;
+    margin-bottom: 50px;
+    height: 99px;
+}
+.gaishu_img1{
+    width: 98px;
+    height: 99px;
+    float: left
+}
+.gaishu_right{
+    float: right;
+    width: 713px;
+    height: 74px;
+    padding-top: 25px;
+}
+.gaishu_right>p{
+    font-size: 16px;
+    color: #6b6a6f
+}
+.model_1>.mokuai3_p{
+    font-size: 17px;
+    color: #6a6a6e;
+    margin-bottom: 90px;
+}
+.mokuai3_img{
+    width: 104px;
+    height: 170px;
+    margin: 0 auto;
+    display: block
+}
+/*对企业价值*/
+.main_block1{
+    background: #221236;
+    /*color: #ffffff;*/
+}
+#block_content>p{
+    font-size: 42px;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 112px;
+    padding-top: 35px;
+}
+.jiazhi{
+    width: 972px;
+    height: 348px;
+    margin: 0 auto;
+    position: relative;
+    padding-top: 30px;
+}
+.jiazhi .img1{
+    position: absolute;
+    top: 0;
+    left: 0
+}
+.jiazhi .img2{
+    position: absolute;
+    top: 0;
+    right: 0
+}
+.jiazhi .img3{
+    position: absolute;
+    bottom: 0;
+    left: 0
+}
+.jiazhi .img4{
+    position: absolute;
+    bottom: 0;
+    right: 0
+}
+.jiazhi1{
+    width: 373px;
+    height: 74px;
+    float: left;
+    margin-left: 60px;
+}
+.jiazhi1_img{
+    background: url("../images/aboutxiaoniao/jiazhi_quanquan.png")no-repeat center;
+    width: 74px;
+    height: 74px;
+    float: left;
+    text-align: center;
+    line-height: 74px;
+    font-size: 11px;
+    color: #f4ffd0
+}
+.jiazhi_zi{
+    font-size: 15px;
+    color: #ffeac4;
+    width: 270px;
+    height: 56px;
+    margin-left: 29px;
+    padding-top: 18px;
+    float: left
+}
+/*小鸟掌云*/
+.warp_block2{
+    background: #f1f3f7
+}
+.warp_block2>p{
+    font-size: 42px;
+    color: #301658;
+    text-align: center;
+    margin-bottom: 32px;
+    padding-top: 35px;
+    font-weight: 600
+}
+.yun{
+    width: 910px;
+    height: 430px;
+    margin: 0 auto;
+    position: relative;
+}
+.yun1{
+    height: 376px;
+    position: absolute;
+    display: none
+}
+.yun1 li{
+    height: 35px;
+    border-bottom: 1px dashed #a3a5a7;
+    font-size: 16px;
+    color: #525254;
+    line-height: 35px;
+}
+.yun_jl{
+    background: url("../images/aboutxiaoniao/xiaoniaoyun_btn.png")no-repeat;
+    display: block
+}
+.yun_em1{
+    width: 78px;
+    height: 8px;
+    background-position: 0 -8px;
+    position: absolute;
+    bottom: 0;
+    left: 365px;
+}
+.yun_em2{
+    width: 78px;
+    height: 8px;
+    background-position: 0 -8px;
+    position: absolute;
+    bottom: 0;
+    left: 467px;
+}
+.yun_active{
+    width: 78px;
+    height: 8px;
+    background-position: 0 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

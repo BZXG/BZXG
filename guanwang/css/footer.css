@@ -1,0 +1,106 @@
+.footer_box{
+    height: 350px;
+    background: url("../images/yinyue_bg.jpg")no-repeat center;
+    width: 100%;
+}
+
+.footer{
+    width: 1100px;
+    height: 350px;
+    margin: 0 auto;
+}
+.yinyue{
+    width: 1100px;
+    height: 263px;
+    border-bottom: 2px dashed #9890a2;
+}
+.yinyue ul{
+    float: left;
+    margin-top: 117px;
+    margin-left: 276px;
+    width: 556px;
+    height: 57px;
+}
+.yinyue ul li{
+    width: 57px;
+    height: 57px;
+    float: left;
+    margin-left: 26px;
+    cursor: pointer;
+}
+@keyframes banner_lr {
+    from{transform: scale(1,1)}
+    25%{transform: scale(1.1,0.9)}
+    50%{transform: scale(1,1)}
+    75%{transform: scale(0.9,1.1)}
+    to{transform: scale(1,1)}
+}
+em{
+    display: inline-block;
+    width: 57px;
+    height: 57px;
+}
+.duo{
+    background: url("../images/yinyue_duo.png")no-repeat;
+}
+.duo:hover{
+    background-position: 0 -57px;
+    animation: banner_lr 0.5s 0.2ms linear alternate;
+}
+.lai{
+    background: url("../images/yinyue_lai.png")no-repeat;
+    display: inline-block;
+
+}
+.lai:hover{
+    background-position: 0 -57px;
+    animation: banner_lr 0.5s 0.2ms linear alternate;
+}
+.mi{
+    background: url("../images/yinyue_mi.png")no-repeat;
+
+}
+.mi:hover{
+    background-position: 0 -57px;
+    animation: banner_lr 0.5s 0.2ms linear alternate;
+}
+.fa{
+    background: url("../images/yinyue_fa.png")no-repeat;
+
+}
+.fa:hover{
+    background-position: 0 -57px;
+    animation: banner_lr 0.5s 0.2ms linear alternate;
+}
+.suo{
+    background: url("../images/yinyue_suo.png")no-repeat;
+
+}
+.suo:hover{
+    background-position: 0 -57px;
+    animation: banner_lr 0.5s 0.2ms linear alternate;
+}
+.la{
+     background: url("../images/yinyue_la.png")no-repeat;
+
+ }
+.la:hover{
+    background-position: 0 -57px;
+    animation: banner_lr 0.5s 0.2ms linear alternate;
+}
+.xi{
+      background: url("../images/yinyue_xi.png")no-repeat;
+
+  }
+.xi:hover{
+    background-position: 0 -57px;
+    animation: banner_lr 0.5s 0.2ms linear alternate;
+}
+.dilan{
+    height: 85px;
+    width: 1100px;
+    text-align: center;
+    color: #ffffff;
+}
+
+

@@ -1,0 +1,182 @@
+#header{
+    height: 120px;
+    width: 100%;
+}
+#footer{
+    height: 350px;
+    width: 100%;
+    margin-top: -1px;
+}
+
+.list_box{
+   background: #f1f2f6;
+    background: url("../images/map_bottomimg.png")no-repeat center;
+    background-position:50% 100%;
+    display: block;
+}
+.list{
+    width: 1100px;
+    margin: 0 auto;
+}
+.list_header{
+    width: 1100px;
+    height: 285px;
+    position: relative;
+
+}
+.list_pen{
+    width: 1100px;
+    height: 61px;
+    background:url("../images/pen_line_long.png")no-repeat;
+    background-position: 0 88%;
+}
+.pen:hover{
+    background:url("../images/pen_hover.png")no-repeat;
+}
+.zi{
+    float: left;
+    margin-top: 2px;
+    margin-left: 0;
+    color: #311759;
+    font-size: 27px;
+}
+.pen{
+   float: right;
+    margin-right: 0;
+    cursor: pointer;
+}
+.list_content{
+    /*height: 830px;*/
+    width: 1100px;
+    overflow: hidden;
+}
+.list_warp{
+    width: 1100px;
+    /*height: 2170px;*/
+}
+/*.list_content ul{*/
+    /*width: 1100px;*/
+    /*float: left;*/
+/*}*/
+.list_content .li_one {
+    float: left;
+    width: 533px;
+    height: 238px;
+    margin-left:30px;
+    margin-top: 35px;
+    background: white;
+    border: 1px solid transparent;
+    position: relative;
+    cursor: pointer;
+}
+.list_content .li_one:hover{
+    transform: translateY(-5px);
+    border: 1px solid black;
+}
+.list_content .li_one:hover>.list_jiantou{
+    transition: all 0.5s;
+    left: 50px;
+}
+.list_jiantou{
+    position: absolute;
+    left: 0;
+    top: 37px;
+}
+.list_tu{
+    float: left;
+    margin-top: 37px;
+    margin-left: 20px;
+}
+.list_content .li_one p{
+    float: left;
+    font-size: 17px;
+    color: #454548;
+    width: 208px;
+    margin-top: 5px;
+    margin-left: 17px;
+    line-height: 25px;
+}
+.more{
+    width: 1100px;
+    height: 438px;
+}
+.moremore{
+    float: left;
+    margin-top: 58px;
+    margin-left: 500px;
+    width: 105px;
+    height: 172px;
+}
+.goon{
+    display: inline-block;
+    background: url("../images/lis_more_btn_bg.png")no-repeat center;
+    background-position:0 -58px;
+    width: 58px;
+    height: 58px;
+    float: left;
+    margin-top: 15px;
+    margin-left: 525px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.goon:hover{
+    background: url("../images/lis_more_btn_bg.png")no-repeat center;
+    background-position:0 0;
+    transition: all 0.5s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

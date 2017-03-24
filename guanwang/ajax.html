@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+</head>
+<body>
+<script src="js/jquery-1.8.3.min.js"></script>
+<script>
+    //url  type  data
+    $.ajax({
+        url:"http://192.168.3.153/listData.php",
+        type:"GET",//默认就是GET
+        data:{
+            page:0
+        },
+        success:function (data) {
+            document.write(data);
+        }
+    })
+</script>
+</body>
+</html>
